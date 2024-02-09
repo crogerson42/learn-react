@@ -21,6 +21,24 @@ export default function Profile() {
             size={150} />
         <Avatar
             person={{ name: 'Pani Dom', imageId: '1bX5QH6'}} />
+        <Avatar
+            person={{ name: 'Woon sen', imageId: 'OKS67lh'}}
+            size={50} />
+        <Avatar
+            person={{ name: 'Ron Ayah', imageId: 'YfeOqp2'}}
+            size={25} />
+        <Avatar
+            person={{ name: 'Pani Dom', imageId: '1bX5QH6'}}
+            size={20} />
+        <Avatar
+            person={{ name: 'Woon sen', imageId: 'OKS67lh'}}
+            size={15} />
+        <Avatar
+            person={{ name: 'Ron Ayah', imageId: 'YfeOqp2'}}
+            size={10} />
+        <Avatar
+            person={{ name: 'Pani Dom', imageId: '1bX5QH6'}}
+            size={5} />
     </div>
   );
 }
