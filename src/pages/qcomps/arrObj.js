@@ -10,8 +10,13 @@ const initialList = [
 export default function BucketList() {
   const [myList, setMyList] = useState(initialList);
   const [yourList, setYourList] = useState(
-    initialList
+    //initialList
+    deepCopy(initialList)
   );
+
+  function deepCopy(list) {
+    return list.map((item) => ({...item}))
+  }
 
   function handleToggleMyList(artworkId, nextSeen) {
     const tmpList = myList.map(e => {
